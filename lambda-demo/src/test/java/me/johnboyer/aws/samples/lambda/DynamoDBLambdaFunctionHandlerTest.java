@@ -2,6 +2,7 @@ package me.johnboyer.aws.samples.lambda;
 
 import java.io.IOException;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,11 +30,9 @@ public class DynamoDBLambdaFunctionHandlerTest {
     }
 
     @Test
-    public void testSimpleDBLambdaFunctionHandler() {
-//        SimpleDBLambdaFunctionHandler handler = new SimpleDBLambdaFunctionHandler();
-//        Context ctx = createContext();
-//
-//        String output = handler.handleRequest("test", ctx);
-//        System.out.println(output);
-    }
+   public void testHandler() {
+    	String output = new DynamoDBFunctionHandler().handleRequest(null, null);
+    	System.out.println(output);
+    	Assert.assertTrue(output != null && output.startsWith("{Items: [{last_name="));
+   }
 }
