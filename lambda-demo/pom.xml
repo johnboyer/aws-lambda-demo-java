@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>me.johnboyer.aws.samples</groupId>
-	<artifactId>lambda</artifactId>
+	<artifactId>lambda-demo</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
