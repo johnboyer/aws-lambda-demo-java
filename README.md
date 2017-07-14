@@ -1,7 +1,7 @@
 # AWS Lambda Demo
 
 ## Overview
-This AWS Lambda function project queries the `customer` table created in the [AWS DynamoDB Demo](https://github.com/johnboyer/aws-dynamodb-demo-java/blob/master/README.md) project and returns the results as a JSON string. This project is companion to my blog post: [How to Build a Serverless API With AWS Dynamodb, Lambda, and API Gateway](https://jeboyer.wordpress.com/2017/07/13/how-to-build-a-serverless-api-with-aws-dynamodb-lambda-and-api-gateway/).
+This AWS Lambda function project queries the `customer` table created in the [AWS DynamoDB Demo](https://github.com/johnboyer/aws-dynamodb-demo-java/blob/master/README.md) project and returns the results as a JSON string. This project is a companion to my blog post: [How to Build a Serverless API With AWS Dynamodb, Lambda, and API Gateway](https://jeboyer.wordpress.com/2017/07/13/how-to-build-a-serverless-api-with-aws-dynamodb-lambda-and-api-gateway/).
 
 ## Prerequisites
 1. An AWS Account and AWS CLI configured. Learn more [here](https://docs.aws.amazon.com/lambda/latest/dg/setup.html).
